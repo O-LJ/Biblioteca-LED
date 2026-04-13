@@ -1,0 +1,21 @@
+{
+    "nome": "LED",
+    "version": "1.0.0",
+    "description": "Permite o controle de um LED, com suporte a ligar, desligar, alternar, temporizar e piscar.",
+    "keywords": [
+        "led",
+        "arduino",
+        "non-blocking",
+        "esp32"
+    ],
+    "authors": [
+        {
+            "nome": "LJ",
+            "github": "https://github.com/O-LJ"
+        }
+    ],
+    "license": "MIT",
+    "frameworks": "arduino",
+    "platforms": "*",
+    "headers": "LED.h"
+}
