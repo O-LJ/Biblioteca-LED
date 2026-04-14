@@ -4,13 +4,13 @@
 #include <Arduino.h>
 #include <LED.h>
 
-Led LEDA(37);
+Led LEDA(37); //define o LED A como pino 37
 
 void setup() {
-LEDA.acender(5000);
+LEDA.acender(5000); //Acende o LED por 5000ms (e depois o apaga). Parâmetro é opcional.
 }
 
 void loop() {
-LEDA.update();
+LEDA.update(); //Atualiza continuamente o estado do LED. DEVE ser incluido no void loop().
 
 }

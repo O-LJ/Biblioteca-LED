@@ -4,13 +4,13 @@
 #include <Arduino.h>
 #include <LED.h>
 
-Led LEDA(37);
+Led LEDA(37); //define o LED A como pino 37
 
 void setup() {
-LEDA.piscar(4, 16);
+LEDA.piscar(4, 16); //Troca o estado do LED (entre ON e OFF) 4 vezes por segundo e parará após desligar 16 vezes.
 }
 
 void loop() {
-LEDA.update();
+LEDA.update(); //Atualiza continuamente o estado do LED. DEVE ser incluido no void loop().
 
 }
